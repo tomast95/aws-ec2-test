@@ -8,5 +8,4 @@ COPY requirements.txt requirements.txt
 
 RUN pip install -r requirements.txt
 
-# env variable to detect if python runs from container
 ENV PYTHONBUFFERED 1
