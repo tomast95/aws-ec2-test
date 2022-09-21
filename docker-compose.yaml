@@ -1,0 +1,13 @@
+version: '3.9'
+
+services:
+  api_main:
+    build: .
+    restart: unless-stopped
+    command: python app/main_api.py
+    env_file:
+      - .env.dev
+    ports:
+      - '${PORT}:80'
+    volumes:
+      - .:/app
