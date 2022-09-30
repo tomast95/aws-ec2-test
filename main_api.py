@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return f"Web App with Python Flask! .env file test variable is: {os.getenv('TEST_VAR', '-')} \n\n Attemp: 1"
+    return f"Web App with Python Flask! .env file test variable is: {os.getenv('TEST_VAR', '-')} \n\n Attemp: 2"
 
 
 if __name__ == "__main__":
