@@ -6,12 +6,11 @@ on:
 jobs:
   continuous-deployment:
     runs-on: self-hosted
+    defaults:
+      run:
+        working-directory: /home/ubuntu/app
     steps:
-      - name: set Working directory
-        run: cd /home/ubuntu/app
-
-      - name: Pull image
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
       - name: Stop docker
         run: docker-compose stop
