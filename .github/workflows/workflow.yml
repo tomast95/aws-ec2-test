@@ -8,7 +8,7 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: set Working directory
-        run: cd /home/aws-ec2/${{ github.repository }}
+        run: cd /home/ubuntu/app
 
       - name: Pull image
         uses: actions/checkout@v2
