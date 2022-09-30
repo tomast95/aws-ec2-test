@@ -6,7 +6,7 @@ services:
     restart: unless-stopped
     command: python app/main_api.py
     env_file:
-      - .env.dev
+      - .env
     ports:
       - '${PORT}:80'
     volumes:

@@ -8,3 +8,14 @@
 # AWS EC2 
 - free tier t2.micro 
 - Ubuntu 22.04
+
+# guide
+- setup AWS instances, policies and security https://medium.com/thelorry-product-tech-data/amazon-ec2-deployment-complete-ci-cd-pipeline-using-github-actions-and-aws-codedeploy-8a477123ff7e
+- was missing outbind port 443
+
+### install docker
+- https://docs.aws.amazon.com/AmazonECS/latest/developerguide/create-container-image.html#create-container-image-install-docker
+### install docker compose
+- sudo curl -L https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
+- sudo chmod +x /usr/local/bin/docker-compose
+- docker-compose version
