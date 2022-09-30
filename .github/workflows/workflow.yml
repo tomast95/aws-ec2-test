@@ -10,4 +10,4 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: test Docker
-          run: docker run hello-world
+        run: docker run hello-world
