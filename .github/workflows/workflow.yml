@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Copy repo
-        run: cp -a /home/ubuntu/actions-runner/_work/aws-ec2-test/aws-ec2-test/. .
+        run: sudo cp -a /home/ubuntu/actions-runner/_work/aws-ec2-test/aws-ec2-test/. .
 
       - name: Stop docker
         run: docker-compose stop
