@@ -9,5 +9,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: test Docker
-        run: docker run hello-world
+      - name: Stop docker
+        run: docker-compose stop
+
+      - name: Build docker
+        run: docker-compose build
+
+      - name: Start docker
+        run: docker-compose up -d
