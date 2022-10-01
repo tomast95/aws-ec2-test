@@ -46,5 +46,15 @@ sudo systemctl enable containerd.service
 
 
 ### Github runners
+- https://www.youtube.com/watch?v=JS07npwL3Ps
 - go to repo settings - actions - runners
 - follow instructions there
+
+### prepare app on server
+```
+mkdir app
+cd app
+touch .env
+nano .env
+```
+- insert .env settings, save and close
