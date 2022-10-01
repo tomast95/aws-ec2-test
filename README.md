@@ -49,6 +49,7 @@ sudo systemctl enable containerd.service
 - https://www.youtube.com/watch?v=JS07npwL3Ps
 - go to repo settings - actions - runners
 - follow instructions there
+- instead of `sudo ./run.sh` use `sudo ./svc.sh install` followed by `sudo ./svc.sh start`
 
 ### prepare app on server
 ```
