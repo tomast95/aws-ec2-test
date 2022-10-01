@@ -10,7 +10,7 @@
 - Ubuntu 22.04
 
 # guide
-- setup AWS instances, policies and security https://medium.com/thelorry-product-tech-data/amazon-ec2-deployment-complete-ci-cd-pipeline-using-github-actions-and-aws-codedeploy-8a477123ff7e
+- setup AWS instances, policies and security https://medium.com/thelorry-product-tech-data/amazon-ec2-deployment-complete-ci-cd-pipeline-using-github-actions-and-aws-codedeploy-8a477123ff7e (dont need IAM, just network security)
 - was missing outbind port 443
 - ports set in app must be set to inbind 
 
